@@ -1,1 +1,1 @@
-基于swoole的websocket聊天室，12306火车票采集和抢购，学习swoole的demo
+基于swoole的websocket聊天室，qq机器人，12306火车票采集和抢购，以及其它学习swoole的demo
