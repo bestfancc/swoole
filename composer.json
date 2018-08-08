@@ -1,0 +1,9 @@
+{
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    },
+    "require": {
+        "slince/smartqq": "^2.0",
+        "illuminate/database": "^5.6"
+    }
+}

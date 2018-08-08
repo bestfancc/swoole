@@ -1,0 +1,33 @@
+{
+    "name": "slince/smartqq",
+    "description": "The wrapper for smartqq api using php",
+    "keywords": ["smartqq", "webqq", "qq", "php-smartqq", "php-webqq", "php-qq"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tao",
+            "email": "taosikai@yeah.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slince\\SmartQQ\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Slince\\SmartQQ\\Tests\\": "./tests"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "symfony/filesystem": "^2.7|^3.0",
+        "cakephp/collection": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0"
+    },
+    "minimum-stability": "stable"
+}
